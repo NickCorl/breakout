@@ -1,0 +1,121 @@
+body {
+    background: rgb(149,149,149); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-repeat: repeat-x;
+    background-color: rgba(27,27,27,1);
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); for IE6-9 */  /*will not pass validation with this line*/
+    font-family: Arial, sans-serif;
+}
+
+#mainContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: Tan;
+	padding: 20px;
+	padding-left: 0;
+	border-radius: 25px;
+	text-align: left;
+
+}
+
+header { /* FF3.6-15 */
+    background: -webkit-linear-gradient(rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%);
+    background: -moz-linear-gradient(rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%);
+    background: -o-linear-gradient(rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%);
+    background: linear-gradient(rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); for  IE6-9 */ /*will not pass validation with this line*/
+    text-align: center;
+    width: 43%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1px;
+    margin-bottom: 5px;
+    /*adding shadow to the breakout text*/
+    text-shadow: 2px 2px 5px white;
+    /*adding animation around the breakout title*/
+    animation-name: breakout_animate;   
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+
+
+}
+
+footer {
+    background: rgb(169,3,41); /* Old browsers */
+    background: -webkit-linear-gradient(rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    background: -moz-linear-gradient(rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    background: -o-linear-gradient(rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    background: linear-gradient(rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 *//*copy*/ /*will not pass validation with this line*/
+    text-align: center;
+    margin: 20px auto auto auto;
+    border-radius: 25px;
+    padding: 20px;
+    width: 80%;
+    text-shadow: 2px 2px 5px white;
+    
+}
+
+.buttonStyle {
+	border-radius: 4px;
+	border: thin solid #F0E020;
+	padding: 5px;
+	background-color: #F8F094;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #663300;
+	width: 75px;
+}
+
+.buttonStyle:hover {
+	border: thin solid #FFCC00;
+	background-color: #FCF9D6;
+	color: #996633;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #99CC00;
+	background-color: #F5FFD2;
+	color: #669900;
+	cursor: pointer;
+}
+
+#gameCanvas {
+	border-style: outset;
+	background-color: white;
+	border-color: rgba(30,87,153,1);
+    left: 50%;
+	/*adding color animation to back of canvas
+    animation-name: breakout_animate;   
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+	*/
+	
+}
+
+#instructions{
+    margin: 30px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 300px;
+    word-break: keep-all;
+    
+}
+
+@keyframes breakout_animate {
+    0%   {background-color: green;}
+    25%  {background-color: blue;}
+    50%  {background-color: purple;}
+    75%  {background-color: red;}
+    100% {background-color: yellow;}
+    
+    0%   {color: green;}
+    25%  {color: blue;}
+    50%  {color: purple;}
+    75%  {color: red;}
+    100% {color: yellow;}
+    
+}

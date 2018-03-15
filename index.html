@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	
+  <link rel="stylesheet" type="text/css" href="breakout2.css" />
+  <link rel="stylesheet" type="text/css" href="highscore.css" />
+  <title>Breakout 2.0</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="A pleasant game for the procrasinating student.">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Tyler Brown, Nicholas Corl, Ryan Fast">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+ 
+<body>
+	<header>
+		<h1 id="gameTitle">Breakout 2.0</h1>
+		  <img src = "images/thumbnail_small.png" id = "thumbnail" width = "100" height = "100" style = "display:none;" alt = "thumbnail image">
+	</header>
+	
+	<aside id = "instructions" style = "float:left"> 
+	<h1>Instructions:</h1>
+	<ol>
+	<li>Use the mouse to the control the paddle. By moving left or right over the canvas.</li>
+	<li>Use the keyboard to navigate through game menus. The in-game menu will prompt for a ceartian key to press</li>
+	</ol>
+	<h1>Goal:</h1>
+	<p>Move the paddle to bounce the ball to collide with all the blocks on screen.
+	Breaking all blocks means you 'broke out' and you will allow you to progress to the next level. With each level a new row of blocks appear making the game
+	harder and harder as you progress. If the ball leaves the bottom edge of the screen you will lose a life! And you only get 3! <br /><br /> 
+	Have fun and keep trying to beat the highscore!</p>
+	
+	
+	</aside>
+	<section id = "mainContent">
+		<article>
+
+			<canvas id = "gameCanvas" width="800" height="500"></canvas>
+		</article>
+	</section>
+	
+
+	<footer>
+		<div id="highdiv">
+			<table id="hightable">
+				<tr>
+					<th>User</th>
+					<th>Score</th>
+				</tr>
+
+			</table>
+			<table id="myhightable">
+				<tr>
+					<th colspan="2">Your High Score</th>
+				</tr>
+				<tr id="myhighscore">
+					<td colspan="2">You don't have one yet!</td>
+				</tr>
+			</table>
+		</div>
+		<h1> Thanks for playing our game!</h1>
+	
+	</footer>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="HighscoreAPI.js" defer></script>	
+<script>
+	update_scores();
+</script>
+<script src = "breakout2.js"></script> 
+</body>
+</html>

@@ -1,0 +1,17 @@
+Technical Requirements
+
+Your game must be comprised of a single webpage named index.html.
+Your page should be properly structured using HTML5 using the proper doctype and canvas tag.
+Include at least 3 CSS3 features such as animations, text effects, or transitions.
+Place your styling in an external stylesheet appropriately.
+Place your game logic in an external JavaScript file.
+Your webpage should look visually appealing.
+Your game must be dynamic enough to require a fair amount of JavaScript (i.e., one simple JavaScript function is not sufficient).
+Your game incorporates the High Score API and the High Score table is displayed on the page.
+Include a README.txt file to justify why your project is worth 100 points. What CSS3 features did you use? Did you use any cool JavaScript libraries? What nifty features of your program were a bear to implement?
+Your HTML and CSS must pass all three validation services (HTML, CSS, WCAG 2.0 AA).
+Include a thumbnail.png file that will be used as the icon for your game.
+
+Breakout helpful turtorial
+https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
+<img src = "images/thumbnail.png" id = "thumbnail" width = "300px" height = "300px"></img>

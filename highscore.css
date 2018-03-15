@@ -1,0 +1,32 @@
+
+#hightable,#myhightable{
+    width:50%;
+    margin:auto;
+    margin-top:8px;
+    text-align: center;
+}
+
+#hightable td,#myhightable td{
+    border: 1px black solid;
+}
+
+#highlogo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#highdiv{
+    background: -webkit-linear-gradient(rgba(30,87,153,1) 0%, rgba(30,87,153,1) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,1) 85%, rgba(30,87,153,1) 100%);
+    background: -moz-linear-gradient(rgba(30,87,153,1) 0%, rgba(30,87,153,1) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,1) 85%, rgba(30,87,153,1) 100%);
+    background: -o-linear-gradient(rgba(30,87,153,1) 0%, rgba(30,87,153,1) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,1) 85%, rgba(30,87,153,1) 100%);
+    background: linear-gradient(rgba(30,87,153,1) 0%, rgba(30,87,153,1) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,1) 85%, rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */ /*will not pass validation with this line*/
+    width:50%;
+    margin:auto;
+    border-radius: 16px;
+    border: .25em solid rgba(56,56,56,1);
+    padding:8px;
+    margin-top: 16px;
+}
